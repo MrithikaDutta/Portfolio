@@ -1,253 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Mrithika Dutta, Software Engineering student specializing in Data Science, Machine Learning, Computer Vision, and AI research." />
+  <title>Mrithika Dutta | AI & Software Engineering Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
+
 <body>
-<div id="header">
-    <div class="container">
-        <nav>
-          <div class="tab">
-          <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul> 
-        </div> 
-        </nav>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="logo">Mrithika<span>Dutta</span></a>
 
-        <div class="headertext">
-        
-          <h1>Hello,This is <span>Mrithika Dutta</span>.</h1>
-        </div>
-    </div>
-</div>
-<!-----about----->
-<div id="about">
-  <div class="container">
-    <div class="row">
-      <div class="about_col1">
-        <img src="" alt="">
-      </div>
-      <div class="about_col2">
-        <h1 class="subtitle">About Me</h1>
-        
-          <h2 class="stud">I am a student of Software Engineerning </h2>
-          <p class="paragraph">
-            I am passionate about Data Science and Artificial Intelligence, 
-           exploring ways to extract insights from data and build intelligent solutions.
-           I thrive on solving complex problems and embracing innovation.
-           Always eager to learn and grow,
-           I aim to apply AI to real-world challenges and make a meaningful impact. 
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        ☰
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-button">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Software Engineering • Data Science • AI Research</p>
+        <h1>Hi, I’m <span>Mrithika Dutta</span></h1>
+        <p class="hero-text">
+          I build AI and software solutions focused on Machine Learning, Computer Vision,
+          Explainable AI, and real-world problem solving.
         </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#resume" class="btn secondary">View Resume</a>
         </div>
-        <div class="tab-contents active-tab" id="Personal Information">
-          <ul>
-            <h3>Personal Information</h3>
-            <li><span>Name-</span>Mrithika Dutta</li>
-            <li><span>Age-</span>22 years</li>
-            <li><span>Occupation-</span>Student</li>
-            <li><span>Email-</span>dutta22205341172@diu.edu.bd</li>
-            <li><span>Contact no.-</span>01234567896</li>
-          </ul>
+
+        <div class="social-links">
+          <a href="https://github.com/MrithikaDutta" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/mrithika-dutta-b30743250/" target="_blank">LinkedIn</a>
+        </div>
+          <a href="dutta22205341172@diu.edu.bd">dutta22205341172@diu.edu.bd</a>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </section>
+  </header>
 
-<!-----education----->
-<div id="education">
-  <div class="container">
-    <h1 class="subtitle"><u>Education</u></h1>
-    <div class="education-list">
-      <div class="education-item">
-        <div class="education-content">
-          <h2>Bachelor of Science in Software Engineering</h2>
-          <h3>Daffodil International University</h3>
-          <p class="year">2022 - Present</p>
-          <p class="description">
-            Currently pursuing my degree with a focus on software development and Data science fundamentals.
-            GPA: 3.89/4.00
+  <main>
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div>
+          <p class="section-label">About Me</p>
+          <h2>AI-Research focused Software Engineering student</h2>
+        </div>
+
+        <div>
+          <p>
+            I am a B.Sc. Software Engineering student at Daffodil International University,
+            majoring in Data Science. My academic and project interests include Machine Learning,
+            Deep Learning, Computer Vision, Explainable AI, Retrieval-Augmented Generation, and
+            AI applications in agriculture and healthcare.
+          </p>
+          <p>
+            I am currently preparing for internships and corporate environments
+
           </p>
         </div>
       </div>
-      <div class="education-item">
-        <div class="education-content">
-          <h2>Higher Secondary Certificate (HSC)</h2>
-          <h3>Mohila College</h3>
-          <p class="year">2020 - 2022</p>
-          <p class="description">
-            Completed higher secondary education with
-            GPA: 5.00/5.00
+    </section>
+
+    <section id="resume" class="section alt-bg">
+      <div class="container">
+        <p class="section-label">Resume</p>
+        <div class="resume-header">
+          <h2>My Resume</h2>
+          <a href="assets/cv%28Mrithika%20Dutta%29.pdf" class="btn primary" download>Download PDF</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="container">
+        <p class="section-label">Research</p>
+        <h2>Research Experience</h2>
+
+        <div class="cards-grid">
+          <article class="card featured-card">
+            <h3>Tea Leaf Disease Classification and Severity Grading</h3>
+            <p>
+              Undergraduate thesis project focused on tea leaf disease classification,
+              pixel-level severity estimation, explainable AI visualizations, and RAG-based
+              treatment recommendation.
+            </p>
+            <ul class="compact-list">
+              <li>Classification: EfficientNet-B0, VGG16, YOLO-based models</li>
+              <li>Segmentation: DeepLabV3+ for infected-region estimation</li>
+              <li>Explainability: Grad-CAM visual interpretation</li>
+              <li>RAG: disease and severity-aware treatment advice</li>
+            </ul>
+            <div class="tag-row">
+              <span>Computer Vision</span>
+              <span>Deep Learning</span>
+              <span>XAI</span>
+              <span>RAG</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>MSRA-Net: An Efficient Deep Learning Architecture with Spatial Attention for Diabetic Retinopathy Classification from Retinal Images</h3>
+            <p>
+              Conference research work presented at EICT 2025, focused on deep learning in computer vision,medical sector
+              architecture design with attention mechanisms.
+            </p>
+            <div class="tag-row">
+              <span>Deep Learning</span>
+              <span>Attention</span>
+              <span>Research</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-label">Projects</p>
+        <h2>Selected Projects</h2>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Tea Disease AI Pipeline</h3>
+            <p>
+              End-to-end AI pipeline for tea leaf disease classification, severity grading,
+              explainability, and treatment recommendation.
+            </p>
+            <div class="tag-row">
+              <span>Python</span>
+              <span>PyTorch</span>
+              <span>Computer Vision</span>
+              <span>RAG</span>
+            </div>
+            <a class="card-link" href="https://github.com/MrithikaDutta" target="_blank">View on GitHub →</a>
+          </article>
+
+          <article class="card">
+            <h3>Personal Finance Tracker</h3>
+            <p>
+              A finance management system for tracking expenses, managing budgets, and
+              generating reports.
+            </p>
+            <div class="tag-row">
+              <span>Java</span>
+              <span>SQL</span>
+            </div>
+            <a class="card-link" href="https://github.com/MrithikaDutta/FinanceManager" target="_blank">View on GitHub →</a>
+          </article>
+
+          <article class="card">
+            <h3>Elder Care Support System</h3>
+            <p>
+              A health-focused support platform designed to help elderly users manage reminders,
+              emergency contacts, and daily care needs with a simple and accessible interface.
+            </p>
+            <div class="tag-row">
+              <span>Python</span>
+              <span>Django </span>
+              <span>ReactJS</span>
+            </div>
+            <a class="card-link" href="https://github.com/MrithikaDutta/Eldercare" target="_blank">View on GitHub →</a>
+          </article>
+
+          <article class="card">
+            <h3>Airplane Ticket Management System</h3>
+            <p>
+              Console-based flight booking system with ticket generation, seat reservation,
+              and user management features.
+            </p>
+            <div class="tag-row">
+              <span>C</span>
+              <span>Console App</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Human Following Robot</h3>
+            <p>
+              Arduino-based robotics project designed to detect and follow humans while
+              maintaining safe movement behavior.
+            </p>
+            <div class="tag-row">
+              <span>Arduino</span>
+              <span>Embedded Systems</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <p class="section-label">Skills</p>
+        <h2>Technical Skills</h2>
+
+        <div class="skill-grid">
+          <div class="skill-box">
+            <h3>Programming</h3>
+            <p>Python, C, Java, SQL, JavaScript</p>
+          </div>
+
+          <div class="skill-box">
+            <h3>AI & Data Science</h3>
+            <p>Machine Learning, Deep Learning, Computer Vision, Data Analysis, XAI</p>
+          </div>
+
+          <div class="skill-box">
+            <h3>Tools</h3>
+            <p>Git, GitHub, Google Colab, VS Code, Roboflow, Overleaf</p>
+          </div>
+
+          <div class="skill-box">
+            <h3>Web</h3>
+            <p>HTML, CSS, JavaScript, Responsive Design</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <p class="section-label">Education</p>
+        <h2>Academic Background</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>B.Sc. in Software Engineering</h3>
+            <p>Daffodil International University</p>
+            <span>2022 – Present</span>
+            <p>Major: Data Science</p>
+            <p>CGPA:3.86/4.00</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Higher Secondary Certificate</h3>
+            <p>Mohila College</p>
+            <span>2020 – 2022</span>
+            <p>GPA:4.00/5.00</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Secondary School Certificate</h3>
+            <p>Halishahar Cantonment Public School and College</p>
+            <span>2015 – 2020</span>
+            <p>GPA:4.94/5.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-wrapper">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect</h2>
+          <p>
+            I am open to internship opportunities, research collaboration, and AI/ML project work.
           </p>
         </div>
-      </div>
-      <div class="education-item">
-        <div class="education-content">
-          <h2>Secondary School Certificate (SSC)</h2>
-          <h3>Halishahar Cantonment Public School And College</h3>
-          <p class="year">2015 - 2020</p>
-          <p class="description">
-            GPA: 4.94/5.00
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-----skills----->
-<div id="skills">
-  <div class="container">
-    <h1 class="subtitle">My Skills</h1>
-    <div class="skills-grid">
-      <div class="skill-category">
-        <h2>Programming Languages</h2>
-        <div class="skill-items">
-          <div class="skill-item">
-            <i class="fab fa-python"></i>
-            <span>Python</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-js"></i>
-            <span>C</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-java"></i>
-            <span>Java</span>
-          </div>
-        </div>
-      </div>
-      <div class="skill-category">
-        <h2>Web Development</h2>
-        <div class="skill-items">
-          <div class="skill-item">
-            <i class="fab fa-html5"></i>
-            <span>HTML</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-css3-alt"></i>
-            <span>CSS</span>
-          </div>
-          <div class="skill-item">
-            <i class="fab fa-js"></i>
-            <span>JavaScript</span>
-          </div>
-        </div>
-      </div>
-      <div class="skill-category">
-        <h2>Data Science</h2>
-        <div class="skill-items">
-          <div class="skill-item">
-            <i class="fas fa-brain"></i>
-            <span>Machine Learning</span>
-          </div>
-          <div class="skill-item">
-            <i class="fas fa-chart-line"></i>
-            <span>Data Analysis</span>
-          </div>
-          <div class="skill-item">
-            <i class="fas fa-database"></i>
-            <span>SQL</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-<!-----projects----->
-<div id="projects">
-  <div class="container">
-    <h1 class="subtitle">My Projects</h1>
-    <div class="projects-grid">
-      <div class="project-card">
-        <div class="project-icon">
-          <i class="fas fa-wallet"></i>
-        </div>
-        <h3>Personal Finance Tracker</h3>
-        <p>A comprehensive financial management system that helps users track their expenses, manage budgets, and generate financial reports.</p>
-        <div class="tech-stack">
-          <span>Java</span>
-          <span>SQL</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-icon">
-          <i class="fas fa-plane"></i>
-        </div>
-        <h3>Airplane Ticket Management System</h3>
-        <p>A console-based application for managing flight bookings, seat reservations, and ticket generation with user authentication.</p>
-        <div class="tech-stack">
-          <span>C</span>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-icon">
-          <i class="fas fa-robot"></i>
-        </div>
-        <h3>Human Following Robot</h3>
-        <p>An autonomous robot that uses sensors to detect and follow humans while maintaining a safe distance and avoiding obstacles.</p>
-        <div class="tech-stack">
-          <span>Arduino Uno</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div id="resume">
-  <div class="container">
-    <h1 class="subtitle">Resume</h1>
-    <div class="resume-content">
-      <p>Download my complete resume to learn more about my experience and qualifications.</p>
-      <a href="https://drive.google.com/file/d/1He6TuI2myt77wvkvC5_RnnhNcefC2lTP/view" class="btn" download>Download Resume</a>
-    </div>
-  </div>
-</div>
-
-<!-----contact----->
-<div id="contact">
-  <div class="container">
-    <h1 class="subtitle">Contact Me</h1>
-    <div class="contact-content">
-      <div class="contact-info">
-        <div class="contact-item">
-          <i class="fas fa-envelope"></i>
-          <p>dutta22205341172@diu.edu.bd</p>
-        </div>
-        <div class="contact-item">
-          <i class="fas fa-phone"></i>
-          <p>01234567896</p>
-        </div>
-        <div class="contact-item">
-          <i class="fas fa-map-marker-alt"></i>
+        <div class="contact-card">
+          <a href="mailto:dutta22205341172@diu.edu.bd">dutta22205341172@diu.edu.bd</a>
+          <a href="https://github.com/MrithikaDutta" target="_blank">github.com/MrithikaDutta</a>
+          <a href="https://www.linkedin.com/in/mrithika-dutta-b30743250/" target="_blank">LinkedIn Profile</a>
           <p>Dhaka, Bangladesh</p>
         </div>
       </div>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </div>
-</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Mrithika Dutta. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
 
 
 </body>
